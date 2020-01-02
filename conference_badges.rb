@@ -22,11 +22,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  counter = 0
-  names = array.size - 1
-  while counter < names do
     puts batch_badge_creator(array[counter])
     puts assign_rooms(array[counter])
-    counter += 1 
-  end
 end
